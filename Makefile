@@ -52,7 +52,11 @@ SRC = ./ft_atoi.c \
 	./ft_strlcat.c\
 	./ft_strncpy.c\
 	./ft_strstr.c\
-	./ft_lstnew.c
+	./ft_lstnew.c\
+	./ft_lstdelone.c\
+	./ft_lstdel.c\
+	./ft_lstadd.c\
+	./ft_lstiter.c
 SRO = ft_atoi.o\
 		ft_bzero.o\
 		ft_isalnum.o\
@@ -105,7 +109,11 @@ SRO = ft_atoi.o\
 		ft_strtrim.o\
 		ft_tolower.o\
 		ft_toupper.o\
-		ft_lstnew.o
+		ft_lstnew.o\
+		ft_lstdelone.o\
+		ft_lstdel.o\
+		ft_lstadd.o\
+		ft_lstiter.o
 
 FLAGS = -Wextra -Wall -Werror
 
